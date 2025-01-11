@@ -104,7 +104,7 @@ export default function App() {
       <header>
         <h1 className="text-2xl text-center leading-normal font-sans font-bold md:text-4xl md:p-12 md:leading-normal">
           Tome as melhores decisões nos seus investimentos, calculando os{" "}
-          <span className="text-emerald-600">melhores métodos</span> de <strong>preço justo</strong>.
+          <span className="text-emerald-600">melhores métodos</span> de preço justo, preço teto, entre outros.
         </h1>
       </header>
 
