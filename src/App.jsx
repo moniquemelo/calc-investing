@@ -103,8 +103,7 @@ export default function App() {
     <div className="w-full min-h-screen flex flex-col p-6 md:max-w-7xl md:mx-auto">
       <header>
         <h1 className="text-2xl text-center leading-normal font-sans font-bold md:text-4xl md:p-12 md:leading-normal">
-          Tome as melhores decisões nos seus investimentos, calculando os{" "}
-          <span className="text-emerald-600">melhores métodos</span> de preço justo, preço teto, entre outros.
+          Calculadoras de Investimentos: Bazin, Graham e Lynch - Descubra o <span className="text-emerald-600">Preço Justo</span> dos seus ativos{" "}
         </h1>
       </header>
 
@@ -138,7 +137,7 @@ export default function App() {
                   />
                 </div>
                 <div>
-                  <label className="block text-md font-medium">Quando deseja receber? (%)</label>
+                  <label className="block text-md font-medium">Quanto deseja receber? (%)</label>
                   <input
                     type="number"
                     value={desiredDYValue}
