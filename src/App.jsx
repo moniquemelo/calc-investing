@@ -139,8 +139,7 @@ export default function App() {
     <div className="w-full min-h-screen flex flex-col p-6 md:max-w-7xl md:mx-auto">
       <header className="flex flex-col gap-6">
         <h1 className="text-lg text-center leading-normal font-sans font-bold md:text-3xl md:p-8 md:leading-normal">
-          Calculadoras de Investimentos: Bazin, Graham e Lynch e Preço Médio - Descubra o <span className="text-emerald-600">Preço Justo e Preço Médio
-            </span> dos seus ativos.
+          Calculadoras de Investimentos: Bazin, Graham e Lynch e Preço Médio - Descubra o <span className="text-emerald-600">Preço Justo</span> e <span className="text-emerald-600">Preço Médio</span> dos seus ativos.
         </h1>
         <p className="text-center text-zinc-900 font-medium leading-normal font-sans mb-10 md:text-lg md:leading-normal md:mb-24">
           O <strong>preço justo</strong> é uma estimativa que revela se uma ação está cara, barata ou no valor ideal. Quando o preço da cotação está abaixo do preço justo, surge uma oportunidade de compra. Aqui, você encontra ferramentas para calcular o preço justo de ações usando métodos consagrados, como Bazin, Graham e Lynch. Além disso, disponibilizamos uma calculadora de preço médio para você simular oportunidades de reduzir seu preço médio e potencializar seus lucros. 
@@ -352,7 +351,7 @@ export default function App() {
           <div className="p-4 min-h-[380px] flex flex-col gap-2">
             <h1 className="text-xl font-bold mt-10">Benjamin Graham (Método de Graham)</h1>
             <div className="flex flex-col gap-4 text-justify text-zinc-900 font-medium md:text-lg">
-              <p className="">Nascido em 1894, em Londres, Graham foi um economista, investidor e autor dos livros  "O Investidor Inteligente" e "Security Analysis". Sua fórmula é baseada no conceito de valor intrínseco, então se uma empresa estivesse sendo negociada abaixo do seu valor íntrinseco, poderia ser uma boa opção de compra.< /p>
+              <p className="">Nascido em 1894, em Londres, Graham foi um economista, investidor e autor dos livros  "O Investidor Inteligente" e "Security Analysis". Sua fórmula é baseada no conceito de valor intrínseco, então se uma empresa estivesse sendo negociada abaixo do seu valor íntrinseco, poderia ser uma boa opção de compra.</p>
 
               <p><strong>Fórmula</strong>: Valor Intrínseco (VI) = √ (22,5 x LPA x VPA)</p>
 
@@ -408,7 +407,6 @@ export default function App() {
         
         {/* <h2 className="font-bold text-md py-2 max-w-80 mb-4 mt-8 md:text-2xl">Preço Médio</h2>
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">          
-          {/* ========== PREÇO MÉDIO ========= 
           <section>
             <div className="p-4 bg-white shadow-lg rounded-lg border-8 min-h-[400px] flex flex-col">
               <h1 className="text-xl font-bold mb-4 text-center">Preço médio ao comprar ações</h1>
@@ -455,7 +453,6 @@ export default function App() {
           </div>
           </section>
         </div> */}
-        {/* </div> */}
       </main>
     </div>
   );
