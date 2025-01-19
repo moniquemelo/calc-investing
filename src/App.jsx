@@ -351,7 +351,7 @@ export default function App() {
           <div className="p-4 min-h-[380px] flex flex-col gap-2">
             <h1 className="text-xl font-bold mt-10">Benjamin Graham (Método de Graham)</h1>
             <div className="flex flex-col gap-4 text-justify text-zinc-900 font-medium md:text-lg">
-              <p className="">Nascido em 1894, em Londres, Graham foi um economista, investidor e autor dos livros  "O Investidor Inteligente" e "Security Analysis". Sua fórmula é baseada no conceito de valor intrínseco, então se uma empresa estivesse sendo negociada abaixo do seu valor íntrinseco, poderia ser uma boa opção de compra.</p>
+              <p className="">Nascido em 1894, em Londres, Graham foi um economista, investidor e autor dos livros  "O Investidor Inteligente" e "Security Analysis". Sua abordagem parte do princípio de que, se uma empresa estiver sendo negociada abaixo de seu valor intrínseco, ela pode representar uma oportunidade atrativa de compra.</p>
 
               <p><strong>Fórmula</strong>: Valor Intrínseco (VI) = √ (22,5 x LPA x VPA)</p>
 
@@ -398,9 +398,9 @@ export default function App() {
               </table>
     
               <p>Algumas lemas de Peter Lynch:</p>
-              <p>"Adote uma mentalidade contrarian e não tenha medo de ir contra a multidão."</p>
-              <p>"Exerça paciência e mantenha uma perspectiva de longo prazo."</p>
-              <p>"Mantenha a disciplina e adira ao seu plano de investimento, mesmo durante a volatilidade do mercado."</p>
+              <p>"Todo mundo tem a inteligência necessária para investir no mercado de ações. O que falta é disciplina."</p>
+              <p>"Saber por que você possui uma ação é a metade do caminho para decidir quando vendê-la."</p>
+              <p>"Conheça a história por trás da ação. Se você não consegue explicar em 10 minutos por que é um bom investimento, não compre."</p>
             </div>
           </div>
         </section>
